@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Report Found Animal - LostPetFinder</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🐾 LostPetFinder</h1>
+    <p>Report a Found Animal</p>
+</header>
+
+<main>
+
+    <section class="form-section">
+
+        <h2>Report Found Animal</h2>
+
+        <form id="foundAnimalForm">
+
+            <label for="foundSpecies">Species</label>
+            <input
+                    type="text"
+                    id="foundSpecies"
+                    placeholder="Example: Dog"
+                    required
+            >
+
+            <label for="foundBreed">Breed</label>
+            <input
+                    type="text"
+                    id="foundBreed"
+                    placeholder="Example: Labrador"
+                    required
+            >
+
+            <label for="foundColour">Colour</label>
+            <input
+                    type="text"
+                    id="foundColour"
+                    placeholder="Example: Brown"
+                    required
+            >
+
+            <label for="foundLocality">Found Locality</label>
+            <input
+                    type="text"
+                    id="foundLocality"
+                    placeholder="Example: Madurai"
+                    required
+            >
+
+            <label for="foundUserId">User ID</label>
+            <input
+                    type="number"
+                    id="foundUserId"
+                    placeholder="Example: 1"
+                    required
+            >
+
+            <button type="submit">
+                Submit Found Animal Report
+            </button>
+
+        </form>
+
+        <p id="foundMessage"></p>
+
+        <br>
+
+        <a href="/">
+            ← Back to Home
+        </a>
+
+    </section>
+
+</main>
+
+<script src="/js/app.js"></script>
+
+</body>
+
+</html>

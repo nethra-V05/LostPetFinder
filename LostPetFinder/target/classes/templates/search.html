@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Search Reports - LostPetFinder</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🐾 LostPetFinder</h1>
+    <p>Search Lost and Found Reports</p>
+</header>
+
+<main>
+
+    <section class="form-section">
+
+        <h2>Search by Locality</h2>
+
+        <label for="searchLocality">
+            Locality
+        </label>
+
+        <input
+                type="text"
+                id="searchLocality"
+                placeholder="Example: Madurai"
+        >
+
+        <button onclick="searchReports()">
+            Search
+        </button>
+
+        <div id="searchResults"></div>
+
+        <br>
+
+        <a href="/">
+            ← Back to Home
+        </a>
+
+    </section>
+
+</main>
+
+<script src="/js/app.js"></script>
+
+</body>
+
+</html>
